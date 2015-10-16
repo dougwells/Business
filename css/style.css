@@ -19,6 +19,7 @@ body {
 .navbar-nav {
     margin: 0;
     padding: 0;
+    font-family: 'Oswald', sans-serif;
 }
 
 .navbar-nav li {
@@ -30,4 +31,44 @@ body {
     font-size: 18px;
     font-weight: bold;
     border-right: 1px solid #cccccc;
+}
+
+.navbar-nav > li > a span {
+    margin: 5px 0 0 0;
+    padding: 0;
+    font-size: 14px;
+    display: block;
+    font-weight: normal;
+    font-family: Arial;
+    text-transform: uppercase;
+}
+
+.navbar-left {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: inline-flex;
+    margin: auto;
+}
+
+.navbar-nav a:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background: #0383c0 !important;
+    color:#ffffff !important;
+}
+
+.jumbotron {
+    margin: 0 !important;
+    min-height: 450px;
+    background: url("../img/bg.jpg") no-repeat;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+}
+
+.jumbotron h1 {
+    font-size: 55px;
 }
