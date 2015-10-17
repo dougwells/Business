@@ -11,6 +11,41 @@ section{
     background: #f4f4f4;
 }
 
+.section-primary{
+    background: #0383c0;
+    color: #ffffff;
+    padding:60px 0;
+}
+
+.section-secondary{
+    background: #e44d26;
+    color: #ffffff;
+    padding:60px 0;
+}
+
+.slogan {
+    text-align: center;
+}
+
+.slogan h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.slogan p {
+    font-size: 20px;
+}
+
+.slogan a{
+    margin-top: 20px;
+}
+
+.feature-list li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 2em;
+}
+
 .nav {
     margin-top: 18px;
 }
@@ -85,4 +120,11 @@ h1, h2, h3 {
 
 .fa-color {
     color: #0383c0;
+}
+
+footer{
+    text-align: center;
+    height: 60px;
+    background: #f4f4f4;
+    padding-top: 20px;
 }
